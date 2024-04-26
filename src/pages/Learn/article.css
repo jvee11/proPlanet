@@ -1,0 +1,20 @@
+.newsItem{
+    border:solid black 2px;
+    margin: 15px;
+    width: 500px;
+    height: 400px;
+}
+
+.newsTitle{
+    font-weight: bold;
+}
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 100px;
+    width: 250px;
+}

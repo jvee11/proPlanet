@@ -1,0 +1,14 @@
+.background{
+    /* background-image: url('../../assets/backgroundWithPlants.webp');
+    background-size: contain; 
+    background-repeat: no-repeat; */
+    
+    background-color: rgba(190, 239, 115, 0.776);
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font: bold;
+    font-size: 30px;
+    
+}
