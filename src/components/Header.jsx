@@ -32,7 +32,7 @@ function Header(props) {
         </div>
 
         <div className='nav-last'>
-            <button className='nav-item'>Profile</button>
+            <button className='nav-item' onClick={()=>navigate('/login')} >Login</button>
             <button className='nav-item'>ChatBot</button>
         </div>
     </div>

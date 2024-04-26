@@ -6,7 +6,6 @@ import Home from './pages/Home.jsx'
 import Community from './pages/Community.jsx'
 import Products from './pages/Products.jsx'
 import Tracker from './pages/Tracker.jsx'
-import Blog from './pages/Blog.jsx'
 import Learn from './pages/Learn.jsx'
 import Articles from './pages/Learn/Articles.jsx'
 import Video from './pages/Learn/Video.jsx'
@@ -20,6 +19,10 @@ import CommunityHome from './pages/Community/CommunityHome.jsx'
 import Ngo from './pages/Community/Ngo.jsx'
 import Volunteer from './pages/Community/Volunteer.jsx'
 import Events from './pages/Community/Events.jsx'
+import Login from './pages/Login.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Signup from './pages/Signup.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -97,6 +100,14 @@ const router = createBrowserRouter([
       },
     ]
   },
+  {
+    path:"/login",
+    element:<Login/>
+  },
+  {
+    path:"/signup",
+    element:<Signup/>
+  }
   
 ])
 

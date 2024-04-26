@@ -1,14 +1,23 @@
-.background{
-    /* background-image: url('../../assets/backgroundWithPlants.webp');
-    background-size: contain; 
-    background-repeat: no-repeat; */
-    
+/* home.css */
+.background {
     background-color: rgba(190, 239, 115, 0.776);
-    height: 95vh;
+    height: calc(100vh - 64px); /* Adjust for the height of the header */
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    font: bold;
-    font-size: 30px;
-    
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1F2937; /* Dark color for better contrast */
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #374151; /* Slightly darker text color */
+    margin-bottom: 40px;
 }
